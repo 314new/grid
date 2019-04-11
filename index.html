@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./css/index.css" type="text/css" rel="stylesheet"/>
+    <title>grid</title>
+</head>
+<body>
+    <section>
+        <h3>1、设置grid容器</h3>
+        <div class="grid-container grid-container-1">
+            <div>我是div</div>
+            <p>我是p</p>
+            <span>我是span</span>
+        </div> 
+        <div class="grid-container grid-container-2">
+            <div>我是div</div>
+            <p>我是p</p>
+            <span>我是span</span>
+        </div>   
+        <details class="explain" title="点击我查看解释">
+            <summary>解释</summary>
+            <section class="detail">
+                <p>如果是display:grid，那么grid容器下的所有元素都会变成块级元素</p>
+                <p>如果是display:inline-grid，那么grid容器下的所有元素都会变成块级元素</p>
+            </section>
+        </details>
+    </section>
+    <section>
+        <h3>2、明确布局</h3>
+        <div class="grid-container grid-container-3">
+            <div>我是div</div>
+            <p>我是p</p>
+            <span>我是span</span>
+        </div> 
+        <div class="grid-container grid-container-4">
+            <div>我是div</div>
+            <p>我是p</p>
+            <span>我是span</span>
+            <div>我是div</div>
+            <p>我是p</p>
+            <span>我是span</span>
+            <div>我是div</div>
+            <p>我是p</p>
+            <span>我是span</span>
+        </div>   
+        <details class="explain" title="点击我查看解释">
+            <summary>解释</summary>
+            <section class="detail">
+                <p>grid-template-rows是指定行的布局尺寸</p>
+                <p>grid-template-columns是指定列的布局尺寸</p>
+            </section>
+        </details>
+    </section>
+
+    <section>
+        <h3>3、fr</h3>
+        <div class="grid-container grid-container-5">
+            <div>我是div</div>
+            <p>我是p</p>
+            <span>我是span</span>
+        </div> 
+        <div class="grid-container grid-container-6">
+            <div>rem</div>
+            <div>%</div>
+            <p>我是p</p>
+            <span>我是span</span>
+        </div>   
+        <details class="explain" title="点击我查看解释">
+            <summary>解释</summary>
+            <section class="detail">
+                <p>将rem、%的布局去掉后剩下的部分就是fr的布局，根据比例进行分配</p>
+            </section>
+        </details>
+    </section>
+
+    <section>
+        <h3>4、minmax</h3>
+        <div class="grid-container grid-container-7">
+            <div>我是div</div>
+            <p>我是p</p>
+            <span>我是span</span>
+        </div> 
+        <div class="grid-container grid-container-8">
+            <div>rem</div>
+            <div>%</div>
+            <p>我是p</p>
+            <span>我是span</span>
+        </div>   
+        <details class="explain" title="点击我查看解释">
+            <summary>解释</summary>
+            <section class="detail">
+                <p>将rem、%的布局去掉后剩下的部分就是fr的布局，根据比例进行分配</p>
+            </section>
+        </details>
+    </section>
+</body>
+</html>
